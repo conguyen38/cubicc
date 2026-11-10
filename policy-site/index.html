@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#5d45eb" />
+    <title>Cubic Flow · Trang thông tin</title>
+    <style>
+      :root { color-scheme: light dark; font-family: "Segoe UI", sans-serif; }
+      * { box-sizing: border-box; }
+      body { min-height: 100vh; display: grid; place-items: center; margin: 0; padding: 24px; color: #202338; background: radial-gradient(circle at 80% 10%, #c8f5f7 0, transparent 34%), #f7f8fc; }
+      main { width: min(680px, 100%); padding: clamp(28px, 7vw, 60px); border-radius: 32px; color: white; background: linear-gradient(145deg, #1b153c, #5d45eb 55%, #16aebf); box-shadow: 0 30px 80px #30208038; }
+      .cube { display: inline-grid; place-items: center; width: 72px; height: 72px; margin-bottom: 24px; border: 2px solid #ffffff55; border-radius: 22px; background: #ffffff18; font-size: 30px; }
+      .eyebrow { margin: 0 0 8px; color: #7dedef; font-size: 13px; font-weight: 800; letter-spacing: .16em; }
+      h1 { margin: 0; font-size: clamp(42px, 10vw, 72px); line-height: .95; letter-spacing: -.05em; }
+      p { max-width: 500px; margin: 22px 0 30px; color: #e6e2ff; font-size: 18px; line-height: 1.65; }
+      nav { display: flex; flex-wrap: wrap; gap: 12px; }
+      a { padding: 13px 18px; border: 1px solid #ffffff35; border-radius: 14px; color: white; background: #ffffff14; font-weight: 700; text-decoration: none; }
+      a.primary { color: #322689; background: white; }
+      footer { margin-top: 32px; color: #b9b3d9; font-size: 13px; }
+      @media (prefers-color-scheme: dark) { body { background: radial-gradient(circle at 80% 10%, #164a53 0, transparent 34%), #111421; } }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="cube" aria-hidden="true">◩</div>
+      <p class="eyebrow">3 × 3 CUBE COMPANION</p>
+      <h1>Cubic Flow</h1>
+      <p>Quét màu, giải khối Rubik 3×3 từng bước và luyện tốc độ hoàn toàn ngoại tuyến.</p>
+      <nav aria-label="Trang pháp lý">
+        <a class="primary" href="privacy.html">Chính sách quyền riêng tư</a>
+        <a href="eula.html">Điều khoản sử dụng</a>
+      </nav>
+      <footer>Dữ liệu được xử lý trên thiết bị · Không quảng cáo · Không tài khoản</footer>
+    </main>
+  </body>
+</html>

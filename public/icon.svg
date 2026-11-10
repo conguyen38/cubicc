@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="40" y1="20" x2="460" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6247F5"/>
+      <stop offset="1" stop-color="#16B8C9"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="22" stdDeviation="18" flood-color="#141832" flood-opacity=".28"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="118" fill="url(#bg)"/>
+  <circle cx="95" cy="96" r="22" fill="#fff" opacity=".2"/>
+  <circle cx="420" cy="415" r="52" fill="#fff" opacity=".1"/>
+  <g filter="url(#shadow)" stroke="#171B35" stroke-width="18" stroke-linejoin="round">
+    <path fill="#F6F8FF" d="M256 83 403 168 256 253 109 168Z"/>
+    <path fill="#6DDAE5" d="M109 168 256 253v153L109 321Z"/>
+    <path fill="#B7A9FF" d="M403 168 256 253v153l147-85Z"/>
+    <path d="M158 137 256 193l97-56M147 209l109 63M365 209l-109 63M182 277l74 43v86M330 277l-74 43v86" fill="none"/>
+    <path d="m256 193-109-56M256 193l109-56M147 272l109-63M365 272l-109-63M182 320l74-43M330 320l-74 43" fill="none" stroke-width="15"/>
+  </g>
+</svg>
